@@ -13,9 +13,9 @@ return 0;
 
 int multiplication_number(int digit)
 {
-    if (digit < 0){
+    if (digit < 0){//si es negativo 
         return 0;
     }
 
-    return (digit % 10) * multiplication_number(digit/10);
+    return (digit % 10) * multiplication_number(digit/10);// el ultimo numero * lo que devuelve la funcion  
 }
